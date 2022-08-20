@@ -1,6 +1,6 @@
-let helpObj = require("./command/help");
-let organizeObj = require("./command/organize");
-let treeObj = require("./command/tree");
+let helpObj = require("./helper/help");
+let organizeObj = require("./helper/organize");
+let treeObj = require("./helper/tree");
 
 let input = process.argv.slice(2);
 
